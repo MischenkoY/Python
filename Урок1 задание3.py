@@ -1,0 +1,5 @@
+n = int(input('Введите целое число: '))
+nn = str(n) + str(n)
+nnn = nn + str(n)
+res = int(n) + int(nn) + int(nnn)
+print(res)
